@@ -1,0 +1,116 @@
+/*Colors and fonts */
+
+body {
+  background-color: #FFFFFF;
+  color: #1F3848;
+  font-family:'Lora', serif;
+  font-size: 17px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #F37173;
+  font-weight: 100;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  color: #5EA6A9;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #409CD6;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+a:hover {
+  color: black;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius:4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-red {
+  color: #FFFFFF;
+  background-color: #F37173;
+  display: inline-block;
+  font-weight: 470;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid;
+  padding: .375rem .75rem;
+  font-size: 18px;
+  line-height: 1.5;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: color .1s ease-in-out,background-color .1s ease-in-out,border-color .1s ease-in-out,box-shadow .1s ease-in-out;
+}
+
+.btn-red:hover {
+  background-color: #C95C5E;
+  color: white;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+ }
+.list-inline li {
+display: inline; /* change list item behavior to inline */
+padding: 10px; /* add some left/right padding between list items */
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
